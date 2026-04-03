@@ -114,7 +114,7 @@ export const Header: React.FC = () => {
       </div>
 
       {/* Navigation */}
-      <div className="navigation-container">
+      <div className="site-header">
         <Navigation />
       </div>
     </header>
