@@ -1,6 +1,6 @@
 import { useAuth } from "../hooks/useAuth";
 import { useAppSelector } from "../hooks/useReduxHooks";
-import ResetPasswordForm from "../components/form/resetPasswordForm";
+import ResetPasswordForm from "../components/form/ResetPasswordForm";
 import { useParams } from "react-router-dom";
 
 function ResetPasswordPage() {
@@ -8,12 +8,12 @@ function ResetPasswordPage() {
   const params = useParams();
   const { resetPasswordAuth } = useAuth();
   const { loading, error, success } = useAppSelector(
-    (state) => state.forgotPassword
+    (state) => state.forgotPassword,
   );
 
   const handleResetPassword = async (
     password: string,
-    confirmPassword: string
+    confirmPassword: string,
   ): Promise<void> => {
     const datas = {
       password,
