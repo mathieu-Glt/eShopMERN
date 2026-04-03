@@ -45,7 +45,7 @@
 /* Container du contenu */
 .hero-container-admin {
   position: relative;
-  height: 100%;
+  /* height: 100%; */
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -192,7 +192,7 @@
 /* Section image (colonne droite) */
 .hero-image-section {
   position: relative;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -299,7 +299,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: cover;
   z-index: 0;
 }
@@ -310,7 +310,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }

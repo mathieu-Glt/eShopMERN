@@ -353,7 +353,7 @@ const initializeApp = async () => {
     httpServer.listen(PORT, "0.0.0.0", () => {
       logger.info({
         type: "SERVER_STARTED",
-        port: PORT,
+        port: PORT, 
         environment: process.env.NODE_ENV || "development",
       });
 

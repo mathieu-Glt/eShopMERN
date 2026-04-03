@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   background: #e07064;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 /* Header */
@@ -193,7 +193,7 @@
 
 .image-preview-item img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: cover;
 }
 
